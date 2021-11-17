@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Email Signature</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial scale=1", user-scalable=yes>
+        <link rel="stylesheet" href="styling.css">
+    </head>
+    <body>
+        <div id="header">
+            <header>
+                <div id="logo">
+                    <img src="img/Itechs-Logo1.png">
+                </div>
+            </header>
+        </div>
+        <div id="title-head">
+                <h1>Signature Generator</h1>
+        </div>
+        <div id="container">
+            <div id="form">
+                <form name="myform" method="post" onsubmit="return validateform()">
+                    <div id="label">
+                        <div id="fname-label">
+                            <label for="fname">First Name:</label>
+                        </div>
+                        <div id="lname-label">
+                            <label for="lname">Last Name:</label><br>
+                        </div>
+                        <div id="title-label">
+                            <label for="title">Title:</label><br>
+                        </div>
+                        <div id="mobile-label">
+                            <label for="mobile">Mobile:</label>
+                        </div>
+                    </div>
+                    <div id="input">
+                        <input type="text" id="fname" name="fname" class="input" required placeholder="Enter Name"><br>
+                        <input type="text" id="lname" name="lname" class="input" required placeholder="Enter Name"><br>
+                        <input type="text" id="title" name="title" class="input" required placeholder="Enter title"><br> 
+                        <input type="tel" id="mobile" name="mobile" class="input" required placeholder="Enter mobile number">
+                        <p id="mobileerror">Mobile No missing digits</p>
+                    </div>
+                </form>
+            </div>
+                    <div id="submit">
+                        <button type="button" class="submit">
+                            Submit
+                        </button>
+                    </div>
+            </div>
+                <div id="signature">
+                    <div id="results">
+                        <div id="regards">
+                        Best Regards,
+                        </div><br>
+                        <div id="name">
+                            
+                        </div><br>
+                        <div id="sig-title">
+
+                        </div>
+                        <div id="sign-logo">
+                            <img src="img/Itechs-Logo1.png">
+                        </div>
+                        <div id="company-details">
+                            <p id="comp-name">Information Technology & Security Solutions</p>
+                            <p id="comp-address">10 Amin Zaki St., Elgolf, Heliopolis, Cairo, Egypt</p>
+                            <p id="website"><a href="https://www.itechs-eg.com/" target="_blank">https://www.itechs-eg.com/</a></p>
+                            <p id="comp-phones">Work: +2 2418 0042&nbsp;&nbsp;&nbsp;&nbsp;Fax:+2 2418 0290</p>
+                            <p id="personal-phone">&nbsp;&nbsp;&nbsp;&nbsp;<span id="personal-phone2"></span></p>
+                        </div>
+                    </div>
+                </div>
+                    <div id="add">
+                        <p>To add signature to outlook follow <a href="https://support.microsoft.com/en-us/office/create-and-add-a-signature-to-messages-8ee5d4f4-68fd-464a-a1c1-0e1c80bb27f2?ns=outlook&version=19&syslcid=1033&uilcid=1033&appver=zol190&helpid=524&ui=en-us&rs=en-us&ad=us" target="_blank">instructions.</a></p>
+                    </div>
+        <script src="javascript.js">
+            
+        </script>
+    </body>
+</html>
