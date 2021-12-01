@@ -128,7 +128,7 @@ body{
 #regards, #sig-title, #name{
     font-size: 1.2em;
     font-weight: bold;
-    margin: 5px;
+    margin: 0px;
     text-transform: capitalize;
 }
 
